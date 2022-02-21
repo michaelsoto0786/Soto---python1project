@@ -1,13 +1,10 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-
-plt.rcParams["figure.figsize"] = [7.50, 3.50]
-plt.rcParams["figure.autolayout"] = True
-
-headers = ['Name', 'Age', 'Marks']
-
-df = pd.read_csv('followers_views.py', names=headers)
-
-df.set_index('Name').plot()
-
-plt.show()
+import csv
+file = open("Instagram_Data.csv")
+csvreader = csv.reader(file)
+header = next(csvreader)
+print(header)
+rows = []
+for row in csvreader:
+    rows.append(row)
+print(rows)
+file.close()
