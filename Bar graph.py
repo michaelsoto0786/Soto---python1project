@@ -8,9 +8,6 @@ x = df['User ID']
 y = df['Likes']
 
 
-
-
-
 plt.xlabel('User ID', fontsize=18)
 plt.ylabel('Likes', fontsize=16)
 plt.bar(x, y)
