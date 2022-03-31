@@ -1,9 +1,19 @@
 # Soto---python1project
 
 Needed to install seaborn and altair.
+Use jupyter notebook to write code and test output.
+Install voila to view the results on jupyter notebook.
+Load mock data as data = pd.read_csv(), just to view the csv file on studio code. 
 
-use jupyter notebook to write code and test output.
+I transfer the ipynb file to visual studio code from jupyter notebook since it was easier for me to link to github for
+the project requirements.
 
-install voila to view the results
+My focus here on the graphs were :
+To figure what time on each day there will be likes.
+To see if the past likes have any connection with any upcoming posts.
+Determine which months have more traffic.
 
-load mock data as data = pd.read_csv()
+At first I was trying to create a GUI interface so the user can toggle on what data they wanted to see but it wasnt working.
+The idea based on visual graphs you can see the when the user post and when users post the most which is mostly
+the summer holidays before it and after it, I say one or two months prior and after. During that time in the months, highest posts during the day
+were 7am 9am. 
