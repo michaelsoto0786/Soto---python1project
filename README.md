@@ -7,7 +7,7 @@ Use jupyter notebook to write code and test output.
 Install voila to view the results on jupyter notebook.
 Load mock data as data = pd.read_csv(), just to view the csv file on studio code. 
 
-I transfer the ipynb file to visual studio code from jupyter notebook since it was easier for me to link to github for
+I transfer the ipynb file to visual studio code from jupyter notebook since it was easier for me to commit onto github for
 the project requirements.
 
 My focus here on the graphs were :
