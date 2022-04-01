@@ -19,3 +19,5 @@ At first I was trying to create a GUI interface so the user can toggle on what d
 The idea based on visual graphs you can see the when the user post and when users post the most which is mostly
 the summer holidays before it and after it, I say one or two months prior and after. During that time in the months, highest posts during the day
 were at 7am 9am. 
+
+Also I put a py file for just printing the csv file to show on visual code. 
